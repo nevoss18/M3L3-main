@@ -7,7 +7,7 @@ body {
     font-size: 18px;
     line-height: 20px;
     background-color: #fff;
-    color: #272727;
+    color: #093126;
 }
 
 h1, h2, p {
@@ -25,7 +25,7 @@ ul {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
-    background-color: #CCE59D;
+    background-color: #4d9d53;
     padding: 25vh 30px;
     margin-bottom: 60px;
     display: flex;
@@ -64,7 +64,7 @@ main {
     gap: 20px;
     padding: 20px;
     border-radius: 24px;
-    border: 1px solid #EB8028;
+    border: 1px solid #0f6125;
     transition: 0.2s;
 }
 .item__img {
@@ -114,17 +114,17 @@ main {
 
 .user input {
     padding: 10px;
-    border: 1px solid #EB8028;
+    border: 1px solid #d3b7ff;
     background: inherit;
     border-radius: 5px;
     font: inherit;
     width: 100%;
-    color: #EB8028;
+    color: #28eb52;
 }
 
 .user input:focus,
 .user input:active {
-    border: 1px solid #EB8028;
+    border: 1px solid #ffffff;
     outline: none;
 }
 
@@ -167,17 +167,20 @@ label {
     align-self: center;
     border: none;
     border-radius: 10px;
-    background: #0EB07C;
+    background: #fda8df;
     font: inherit;
     color: #fff;
 }
 .list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
+  list-style: none;
+  padding: 0;
 }
 
 .list__item {
-  list-style: none;
+  flex: 0 1 300px; /* her öğe için genişlik */
   text-align: center;
 }
